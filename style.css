@@ -20,7 +20,8 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 18px 0;
+    padding-top: 18px;
+    padding-bottom: 90px;
 }
  
 .menu {
@@ -33,7 +34,7 @@ a {
 .logo {
     font-size: 24px;
     color: #F9fAF8;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .nav-links {
@@ -44,15 +45,38 @@ a {
 
 .header {
     width: 900px;
+    display: flex;
+    gap: 18px;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9fAF8;
     font-weight: 900;
+    padding-bottom: 8px;
 }
 
-.text, .nav-links {
+.text, 
+.nav-links {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+.first-pic {
+    height: auto;
+    width: 400px;
+}
+
+.sign-up {
+    background-color: #3883F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 30px;
+    border-style: none;
+    border-radius: 6px;
 }
