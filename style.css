@@ -20,13 +20,15 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    padding-top: 18px;
-    padding-bottom: 90px;
+}
+
+.menu-container {
+    padding: 18px 0px;
 }
  
 .menu {
     display: flex;
-    width: 900px;
+    width: 1200px;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -43,17 +45,26 @@ a {
     cursor: pointer;
 }
 
+.header-container {
+    padding: 90px 0px;
+}
+
 .header {
-    width: 900px;
+    width: 1200px;
     display: flex;
-    gap: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header {
+    width: 450px;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9fAF8;
     font-weight: 900;
-    padding-bottom: 8px;
+    padding-bottom: 8px;    
 }
 
 .text, 
@@ -68,7 +79,7 @@ a {
 
 .first-pic {
     height: auto;
-    width: 400px;
+    width: 500px;
 }
 
 .sign-up {
@@ -79,4 +90,62 @@ a {
     padding: 5px 30px;
     border-style: none;
     border-radius: 6px;
+}
+
+.content-container {
+    background-color: white;
+}
+
+.content-header-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 40px 0px;
+}
+
+.content-img-grid {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-bottom: 90px;
+    margin: auto;
+}
+
+.img-text {
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+.content-img {
+    width: 200px;
+}
+
+.second-pic {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;  
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px 0px;
+}
+
+.quote {
+    text-align: left;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin: auto;
+}
+
+.quote-author {
+    text-align: right;
+    width: 800px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
 }
